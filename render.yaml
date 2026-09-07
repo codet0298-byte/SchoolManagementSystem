@@ -1,6 +1,7 @@
 services:
   - type: web
     name: school-management-system
-    env: docker
+    env: dotnet
     plan: free
-    dockerfilePath: ./Dockerfile
+    buildCommand: dotnet publish -c Release -o out
+    startCommand: dotnet out/SchoolManagementSystem.dll
