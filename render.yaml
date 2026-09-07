@@ -3,3 +3,4 @@ services:
     name: school-management-system
     env: docker
     plan: free
+    dockerfilePath: ./Dockerfile
