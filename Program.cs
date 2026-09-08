@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+namespace SchoolManagementSystem;
+using Microsoft.EntityFrameworkCore;
 using System;
 
 using Microsoft.AspNetCore.Authentication.Cookies;
